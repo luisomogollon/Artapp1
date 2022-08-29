@@ -7,7 +7,7 @@ function Home() {
   return (
     <section className="px-2 pt-32 bg-white md:px-0">
       <div className="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
-        <h1 className="text-4xl italic font-extrabold tracking-tight text-left text-gray-900 sm:text-5xl md:text-6xl md:text-center">
+        <h1 className="text-4xl italic text-center font-extrabold tracking-tight  text-gray-900 sm:text-5xl md:text-6xl md:text-center">
           <span className="block">
             Online Art{" "}
             <span className="block mt-1 text-purple-500 lg:inline lg:mt-0">
@@ -16,12 +16,12 @@ function Home() {
           </span>
         </h1>
 
-        <p className="w-full italic mx-auto text-base text-left text-gray-500  sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
+        <p className="w-full italic mx-auto text-center text-left text-gray-500  sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
           Taking Digital Art To The Next Level!
         </p>
 
         <div className="relative flex flex-col justify-center md:flex-row md:space-x-4">
-          <button className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-purple-500 rounded-md md:mb-0 hover:bg-purple-700 md:w-auto">
+          <button className="flex justify-center items-center w-full px-6 py-3 mb-3 text-lg text-white bg-purple-500 rounded-md md:mb-0 hover:bg-purple-700 md:w-auto">
             <Link to="/Catalogue">Catalogue</Link>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ function Home() {
             </svg>
           </button>
 
-          <button className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
+          <button className="flex items-center justify-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
             <Link to="/Product">New Product</Link>
           </button>
         </div>

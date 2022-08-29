@@ -27,7 +27,7 @@ const Product = () => {
               Upload Your Art and Put a Price on It
             </p>
 
-            <h2 className="text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
+            <h2 className="text-2xl font-extrabold leading-none text-gray-800 italic sm:text-3xl md:text-5xl">
               Changing The Way People Exhibit Art
             </h2>
 
@@ -148,7 +148,7 @@ const Product = () => {
               />
 
               <div className="block">
-                <button className="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">
+                <button className="w-full px-3 py-4 font-medium text-white bg-indigo-500 hover:bg-purple-700 rounded-lg">
                   Submit
                 </button>
               </div>
