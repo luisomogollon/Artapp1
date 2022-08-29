@@ -204,7 +204,7 @@ const Catalogue = () => {
             </p>
 
             <span class="inline-block  py-2 italic  space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
-              #Folio 02765
+              #Folio 02765 
             </span>
           </div>
 
