@@ -7,7 +7,7 @@ import imagenes from "../assets/imagenes";
 const Catalogue = () => {
   const [qrImage, setImage] = useState(false);
 
-  const handleClick = () => {
+  const toggleQR = () => {
     setImage(!qrImage);
   };
 
@@ -89,7 +89,7 @@ const Catalogue = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6 fill-current  text-gray-900 hover:text-indigo-600 cursor-pointer"
                 viewBox="0 0 15 15"
-                onClick={handleClick}
+                onClick={toggleQR}
               >
                 <MdOutlineQrCode2 />
               </svg>
