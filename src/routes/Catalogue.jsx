@@ -4,13 +4,11 @@ import { AiOutlineEdit } from "react-icons/ai";
 import { MdOutlineQrCode2, MdShare } from "react-icons/md";
 import imagenes from "../assets/imagenes";
 
-
-
 const Catalogue = () => {
-  const [changeImagen, setchangeImagen] = useState(false);
+  const [qrImage, setImage] = useState(false);
 
-  const handleclick = () => {
-    setchangeImagen(!changeImagen);
+  const handleClick = () => {
+    setImage(!qrImage);
   };
 
   return (
@@ -30,7 +28,7 @@ const Catalogue = () => {
             h-40
             object-cover
             rounded-xl
-            src={imagenes.img7}
+            src={qrImage ? imagenes.img0 : imagenes.img7}
             alt=""
           />
 
@@ -91,6 +89,7 @@ const Catalogue = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6 fill-current  text-gray-900 hover:text-indigo-600 cursor-pointer"
                 viewBox="0 0 15 15"
+                onClick={handleClick}
               >
                 <MdOutlineQrCode2 />
               </svg>
@@ -169,9 +168,7 @@ const Catalogue = () => {
                 className="w-6 h-6 fill-current  cursor-pointer text-gray-900 hover:text-indigo-600 "
                 viewBox="0 0 15 15"
               >
-                <Link to="/Codecard">
-                  <MdOutlineQrCode2 />
-                </Link>
+                <MdOutlineQrCode2 />
               </svg>
             </div>
           </div>

@@ -16,7 +16,7 @@ function Home() {
           </span>
         </h1>
 
-        <p className="w-full italic mx-auto text-center text-left text-gray-500  sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
+        <p className="w-full italic mx-auto text-center text-gray-500  sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
           Taking Digital Art To The Next Level!
         </p>
 
