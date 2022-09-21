@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { AiOutlineEdit} from "react-icons/ai";
-import { MdOutlineQrCode2,MdShare } from "react-icons/md";
+import { AiOutlineEdit } from "react-icons/ai";
+import { MdOutlineQrCode2, MdShare } from "react-icons/md";
 import imagenes from "../assets/imagenes";
 
+
+
 const Catalogue = () => {
-  
+  const [changeImagen, setchangeImagen] = useState(false);
+
+  const handleclick = () => {
+    setchangeImagen(!changeImagen);
+  };
+
   return (
     <div>
       <section className="h-auto  bg-gray-100">
@@ -65,8 +72,8 @@ const Catalogue = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-6 fill-current"
                   viewBox="0 0 15 16"
-                  >
-                   <MdShare/>
+                >
+                  <MdShare />
                 </svg>
               </a>
 
@@ -76,18 +83,16 @@ const Catalogue = () => {
                   className="w-6 h-6 fill-current"
                   viewBox="0 0 15 15"
                 >
-                  <AiOutlineEdit/>               
+                  <AiOutlineEdit />
                 </svg>
               </a>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 fill-currents  text-gray-900 hover:text-indigo-600 cursor-pointer"
+                className="w-6 h-6 fill-current  text-gray-900 hover:text-indigo-600 cursor-pointer"
                 viewBox="0 0 15 15"
               >
-                <Link to="/Codecard">
-                  <MdOutlineQrCode2 />
-                </Link>
+                <MdOutlineQrCode2 />
               </svg>
             </div>
           </div>
@@ -145,7 +150,7 @@ const Catalogue = () => {
                   className="w-6 h-6 fill-current"
                   viewBox="0 0 15 16"
                 >
-                 <MdShare/>
+                  <MdShare />
                 </svg>
               </a>
 
@@ -155,7 +160,7 @@ const Catalogue = () => {
                   className="w-6 h-6 fill-current"
                   viewBox="0 0 15 15"
                 >
-                  <AiOutlineEdit/>
+                  <AiOutlineEdit />
                 </svg>
               </a>
 
@@ -204,7 +209,7 @@ const Catalogue = () => {
             </p>
 
             <span class="inline-block  py-2 italic  space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
-              #Folio 02765 
+              #Folio 02765
             </span>
           </div>
 
@@ -222,8 +227,8 @@ const Catalogue = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-6 fill-current"
                   viewBox="0 0 15 16"
-                  >
-                   <MdShare/>
+                >
+                  <MdShare />
                 </svg>
               </a>
 
@@ -232,8 +237,8 @@ const Catalogue = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-6 fill-current"
                   viewBox="0 0 15 15"
-                  >
-                    <AiOutlineEdit/>
+                >
+                  <AiOutlineEdit />
                 </svg>
               </a>
 
