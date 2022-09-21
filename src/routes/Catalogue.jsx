@@ -82,7 +82,7 @@ const Catalogue = () => {
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 fill-current  text-gray-900 hover:text-indigo-600 cursor-pointer"
+                className="w-6 h-6 fill-currents  text-gray-900 hover:text-indigo-600 cursor-pointer"
                 viewBox="0 0 15 15"
               >
                 <Link to="/Codecard">
