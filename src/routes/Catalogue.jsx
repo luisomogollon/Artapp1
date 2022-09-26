@@ -16,7 +16,7 @@ const Catalogue = () => {
       <section className="h-auto  bg-gray-100">
         <div className=" justify-center  text-center py-11 px-10  sm:px-6 lg:px-8 sm:text-center">
           <p className="mt-1 text-4xl  italic font-bold text-gray-700 sm:text-5xl sm:tracking-tight lg:text-5xl">
-            Digital Art Catalog
+            Digital Art Catalog.
           </p>
         </div>
       </section>
