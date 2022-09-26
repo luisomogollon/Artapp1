@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineEdit } from "react-icons/ai";
 import { MdOutlineQrCode2, MdShare } from "react-icons/md";
 import imagenes from "../assets/imagenes";
-
+import Modal from "./Modal";
 const Catalogue = () => {
   const [qrImage, setImage] = useState(false);
 
@@ -20,6 +20,8 @@ const Catalogue = () => {
           </p>
         </div>
       </section>
+
+      <Modal/>
 
       <div className="bg-gray-100 w-100 min-h-screen gap-6  flex-wrap flex justify-center items-center">
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
