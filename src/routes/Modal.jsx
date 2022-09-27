@@ -7,11 +7,11 @@ export default function Modal() {
   const [showModal, setShowModal] = React.useState(false);
   
 
-  //const [ModalForm, setModalForm] = useState (false);
+  const [ModalForm, setModalForm] = useState (false);
 
-  //const toggleModal = () => {
-      //setModalForm(!ModalForm);
-   // };
+  const toggleModal = () => {
+      setModalForm(!ModalForm);
+   };
 
 
 
@@ -42,8 +42,8 @@ export default function Modal() {
                 {/*header*/}
                
                 <div className="flex items-c text-center justify-between p-3 border-b border-solid border-slate-200 rounded-t">
-                <h3 className="text-lg font-medium leading-1 text-gray-900 text-center  ">
-                   Compartir este Cuadro?
+                <h3 className="text-lg font-extrabold leading-1 italic text-gray-900   ">
+                  ¿Compartir Cuadros?
                    
                   </h3>
                   
@@ -72,7 +72,7 @@ export default function Modal() {
                     </svg>
                   </div>
 
-                  <p className="text-sm font-bold  text-gray-700 mt-3 tracking-normal  dark:text-gray-600   ">
+                  <p className="text-sm font-semibold leading-5 text-start  text-gray-700 mt-3 tracking-normal  dark:text-gray-600   ">
                     ¿ Estas Seguro de querer Compartir este Certificado? una vez
                     Compartido no hay manera de deshacer esta accion y el
                     certificado sera propiedad del nuevo usuario.
@@ -93,7 +93,7 @@ export default function Modal() {
                    
                   >
                   Aceptar 
-                   <Modalform/>
+                   
                   </button>
                 </div>
               </div>
