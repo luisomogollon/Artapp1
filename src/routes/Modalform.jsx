@@ -26,7 +26,7 @@ export default function Modalform() {
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 text-indigo-500 border-b border-solid border-slate-200 rounded-t">
                   <h3 className="text-2xl font-semibold ">
-                    Compartir Con Amigo
+                    Compartir 
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -46,16 +46,16 @@ export default function Modalform() {
                     <div class="mb-4 ">
                       <label
                         for="email"
-                        class="block mb-2 text-start text-sm font-medium text-gray-700 dark:text-gray-300"
+                        class="block mb-2 text-start text-sm font-medium text-gray-700 "
                       >
                         User
                       </label>
                       <input
                         type="text"
                         id="text"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border border-gray-200  focus:outline-none focus:border-indigo-300 focus:ring-1 focus:ring-indigo-300 text-gray-900 text-sm rounded-sm  block w-full p-2.5 "
                         placeholder="User"
-                        required=""
+                        
                       />
                     </div>
                     <div class="mb-6">
@@ -69,7 +69,7 @@ export default function Modalform() {
                         type="text"
                         id="text"
                         placeholder="Nombre"
-                        class="bg-gray-50 border  border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border  border-gray-200 text-gray-700 text-sm rounded-ms focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         required=""
                       />
                     </div>
