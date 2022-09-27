@@ -45,7 +45,7 @@ export function Layout() {
               {" "}
               <svg
                 className="w-10 h-10"
-                aria-hidden="true"
+                h-40="true"
                 fill="currentColor"
                 viewBox=" 0 2 18 12"
               >
