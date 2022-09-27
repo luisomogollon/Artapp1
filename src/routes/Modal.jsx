@@ -35,15 +35,18 @@ export default function Modal() {
       </button>
       {showModal ? (
         <>
-          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-1 z-50 outline-none focus:outline-none">
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
+          <div className="justify-center  items-center flex overflow-x-hidden overflow-y-auto fixed inset-1 z-50 outline-none focus:outline-none">
+            <div className="relative w-auto my-6 mx-auto  max-w-3xl">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-gray-50 outline-none focus:outline-none">
+              <div className="border-0 rounded-sm shadow-lg p-5 relative flex flex-col w-full bg-gray-50 outline-none focus:outline-none">
                 {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-2xl font-semibold  ">
-                    Compartir Cuadro?
+               
+                <div className="flex items-c text-center justify-between p-3 border-b border-solid border-slate-200 rounded-t">
+                <h3 className="text-lg font-medium leading-1 text-gray-900 text-center  ">
+                   Compartir este Cuadro?
+                   
                   </h3>
+                  
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
@@ -55,11 +58,11 @@ export default function Modal() {
                 </div>
                 {/*body*/}
 
-                <div className="relative p-6 flex-auto">
+                <div className="relative p-7 flex-auto">
                   <div class="p-1 text-center">
                     <svg
                       aria-hidden="true"
-                      class="mx-auto mb-2 w-10 h-10 text-red-400 dark:text-gray-200"
+                      class="mx-auto mb-2 w-10 h-10 text-indigo-500 dark:text-gray-200"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 15 15"
@@ -68,7 +71,8 @@ export default function Modal() {
                       <AiOutlineWarning />
                     </svg>
                   </div>
-                  <p className="my-5 text-gray-700   ">
+
+                  <p className="text-sm font-bold  text-gray-700 mt-3 tracking-normal  dark:text-gray-600   ">
                     ¿ Estas Seguro de querer Compartir este Certificado? una vez
                     Compartido no hay manera de deshacer esta accion y el
                     certificado sera propiedad del nuevo usuario.
@@ -84,11 +88,11 @@ export default function Modal() {
                     Cancelar
                   </button>
                   <button
-                    className="bg-indigo-500 text-white active:bg-indigo-600 font-semibold uppercase text-sm px-2 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
+                    className="bg-indigo-500 text-white  active:bg-indigo-600 font-semibold uppercase text-sm px-2 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
                     type="button"
                    
                   >
-                    
+                  Aceptar 
                    <Modalform/>
                   </button>
                 </div>

@@ -26,7 +26,7 @@ export default function Modalform() {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-gray-50 outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-center justify-between p-5 text-indigo-500 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-2xl font-bold  "></h3>
+                  
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
@@ -80,7 +80,7 @@ export default function Modalform() {
                         type="text"
                         id="text"
                         class="bg-gray-50 border border-gray-200  focus:outline-none focus:border-indigo-300 focus:ring-1 focus:ring-indigo-300 text-gray-900 text-sm rounded-sm  block w-full p-2.5 "
-                        placeholder="User"
+                        placeholder="Nombre Del Usuario"
                       />
                     </div>
                     <div class="flex items-start mb-6">
