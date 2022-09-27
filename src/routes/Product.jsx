@@ -38,9 +38,9 @@ const Product = () => {
           <div className="w-full mt-16 md:mt-0 md:w-2/5">
             <div className="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7">
               <h3 className="mb-6 text-2xl font-medium text-center">
-                Fill The Form
+                Fill The htmlhtmlForm
               </h3>
-              <label for="" className="text-xs font-semibold px-1">
+              <label htmlFor="" className="text-xs font-semibold px-1">
                 Name
               </label>
 
@@ -50,7 +50,7 @@ const Product = () => {
                 placeholder="Picture name "
               />
 
-              <label for="" className="text-xs font-semibold px-1">
+              <label htmlFor="" className="text-xs font-semibold px-1">
                 Description
               </label>
 
@@ -67,7 +67,7 @@ const Product = () => {
 
               <div className="flex -mx-3">
                 <div className="w-1/2 px-3 mb-5">
-                  <label for="" className="text-xs font-semibold px-1">
+                  <label htmlFor="" className="text-xs font-semibold px-1">
                     Width
                   </label>
 
@@ -85,7 +85,7 @@ const Product = () => {
                 </div>
 
                 <div className="w-1/2 px-3 mb-5">
-                  <label for="" className="text-xs font-semibold px-1">
+                  <label htmlFor="" className="text-xs font-semibold px-1">
                     Height
                   </label>
 
@@ -103,7 +103,7 @@ const Product = () => {
                 </div>
 
                 <div className="w-1/2 px-3 mb-5">
-                  <label for="" className="text-xs font-semibold px-1">
+                  <label htmlFor="" className="text-xs font-semibold px-1">
                     Year
                   </label>
 
@@ -137,7 +137,7 @@ const Product = () => {
                 <img alt="uploaded cover img" src={cover} width="200" />
               )}
 
-              <label for="" className="text-sm  font-medium ">
+              <label htmlFor="" className="text-sm  font-medium ">
                 Technique
               </label>
 

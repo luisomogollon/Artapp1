@@ -1,6 +1,6 @@
 import { AiOutlineUserAdd } from "react-icons/ai";
 
-const ModalForm = () => {
+const ModalhtmlForm = () => {
   return (
     <>
       <div className="p-1 text-center">
@@ -15,10 +15,10 @@ const ModalForm = () => {
           <AiOutlineUserAdd />
         </svg>
       </div>
-      <form>
+      <htmlForm>
         <div className="mb-6 ">
           <label
-            for="email"
+            htmlFor="email"
             className="block mb-2 text-start text-sm font-medium text-gray-700 "
           >
             User
@@ -32,7 +32,7 @@ const ModalForm = () => {
         </div>
         <div className="mb-6 ">
           <label
-            for="email"
+            htmlFor="email"
             className="block mb-2 text-start text-sm font-medium text-gray-700 "
           >
             Nombre
@@ -55,15 +55,15 @@ const ModalForm = () => {
             />
           </div>
           <label
-            for="remember"
+            htmlFor="remember"
             className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
           >
             Confirmar
           </label>
         </div>
-      </form>
+      </htmlForm>
     </>
   );
 };
 
-export default ModalForm;
+export default ModalhtmlForm;
