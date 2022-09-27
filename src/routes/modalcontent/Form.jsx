@@ -3,7 +3,7 @@ import { AiOutlineUserAdd } from "react-icons/ai";
 const ModalhtmlForm = () => {
   return (
     <>
-      <div className="p-1 text-center">
+      <div className="p-3 bg-  text-center">
         <svg
           
           className="mx-auto mb-1 mt-2 w-10 h-10 text-gray-600 "
