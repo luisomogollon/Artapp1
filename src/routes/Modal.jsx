@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { GiShare } from "react-icons/gi";
 import { AiOutlineWarning } from "react-icons/ai";
 import Modalform from "./Modalform";
 
 export default function Modal() {
   const [showModal, setShowModal] = React.useState(false);
+  
+
+  //const [ModalForm, setModalForm] = useState (false);
+
+  //const toggleModal = () => {
+      //setModalForm(!ModalForm);
+   // };
+
+
+
+
+  
   return (
     <>
       <button
@@ -18,6 +30,7 @@ export default function Modal() {
           viewBox="0 0 13 13"
         >
           <GiShare />
+          
         </svg>
       </button>
       {showModal ? (
@@ -55,7 +68,7 @@ export default function Modal() {
                       <AiOutlineWarning />
                     </svg>
                   </div>
-                  <p className="my-5 text-gray-700  leading-relaxed ">
+                  <p className="my-5 text-gray-700   ">
                     ¿ Estas Seguro de querer Compartir este Certificado? una vez
                     Compartido no hay manera de deshacer esta accion y el
                     certificado sera propiedad del nuevo usuario.
@@ -73,12 +86,14 @@ export default function Modal() {
                   <button
                     className="bg-indigo-500 text-white active:bg-indigo-600 font-semibold uppercase text-sm px-2 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1  ease-linear transition-all duration-150"
                     type="button"
+                   
                   >
-                    <Modalform/>
-                  
+                    
+                   <Modalform/>
                   </button>
                 </div>
               </div>
+              
             </div>
           </div>
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>

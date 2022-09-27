@@ -5,12 +5,15 @@ import { MdOutlineQrCode2, MdShare } from "react-icons/md";
 import imagenes from "../assets/imagenes";
 import Modal from "./Modal";
 
+
 const Catalogue = () => {
   const [qrImage, setImage] = useState(false);
 
   const toggleQR = () => {
     setImage(!qrImage);
   };
+
+ 
 
   return (
     <div>

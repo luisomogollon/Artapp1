@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineUserAdd } from "react-icons/ai";
 
 export default function Modalform() {
   const [showModal, setShowModal] = React.useState(false);
@@ -24,10 +25,8 @@ export default function Modalform() {
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-gray-50 outline-none focus:outline-none">
                 {/*header*/}
-                <div className="flex items-start justify-between p-5 text-indigo-500 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-2xl font-semibold ">
-                    Compartir 
-                  </h3>
+                <div className="flex items-center justify-between p-5 text-indigo-500 border-b border-solid border-slate-200 rounded-t">
+                  <h3 className="text-2xl font-bold  "></h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
@@ -42,8 +41,21 @@ export default function Modalform() {
                 <div className="relative p-6 flex-auto">
                   <div class="p-1 text-center"></div>
 
+                  <div class="p-1 text-center">
+                    <svg
+                      aria-hidden="true"
+                      class="mx-auto mb-1 mt-2 w-10 h-10 text-gray-600 "
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 15 15"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <AiOutlineUserAdd />
+                    </svg>
+                  </div>
+
                   <form>
-                    <div class="mb-4 ">
+                    <div class="mb-6 ">
                       <label
                         for="email"
                         class="block mb-2 text-start text-sm font-medium text-gray-700 "
@@ -55,22 +67,20 @@ export default function Modalform() {
                         id="text"
                         class="bg-gray-50 border border-gray-200  focus:outline-none focus:border-indigo-300 focus:ring-1 focus:ring-indigo-300 text-gray-900 text-sm rounded-sm  block w-full p-2.5 "
                         placeholder="User"
-                        
                       />
                     </div>
-                    <div class="mb-6">
+                    <div class="mb-6 ">
                       <label
-                        for="password"
-                        class="block mb-2 text-sm font-medium text-start text-gray-900 dark:text-gray-300"
+                        for="email"
+                        class="block mb-2 text-start text-sm font-medium text-gray-700 "
                       >
                         Nombre
                       </label>
                       <input
                         type="text"
                         id="text"
-                        placeholder="Nombre"
-                        class="bg-gray-50 border  border-gray-200 text-gray-700 text-sm rounded-ms focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        required=""
+                        class="bg-gray-50 border border-gray-200  focus:outline-none focus:border-indigo-300 focus:ring-1 focus:ring-indigo-300 text-gray-900 text-sm rounded-sm  block w-full p-2.5 "
+                        placeholder="User"
                       />
                     </div>
                     <div class="flex items-start mb-6">
@@ -81,7 +91,6 @@ export default function Modalform() {
                           value=""
                           class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
                           required=""
-                          
                         />
                       </div>
                       <label
