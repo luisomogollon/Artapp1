@@ -1,6 +1,6 @@
 import { AiOutlineWarning } from "react-icons/ai";
 
-const ConfirmationModalContent = () => {
+const ConfirmationContent = () => {
   return (
     <>
       <div className="flex items-c text-center justify-between p-3 border-b border-solid border-slate-200 rounded-t">
@@ -32,4 +32,4 @@ const ConfirmationModalContent = () => {
   );
 };
 
-export default ConfirmationModalContent;
+export default ConfirmationContent;
