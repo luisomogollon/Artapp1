@@ -5,7 +5,7 @@ const ModalForm = () => {
     <>
       <div className="p-1 text-center">
         <svg
-          aria-hidden="true"
+          
           className="mx-auto mb-1 mt-2 w-10 h-10 text-gray-600 "
           fill="none"
           stroke="currentColor"

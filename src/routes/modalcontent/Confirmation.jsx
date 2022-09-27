@@ -11,7 +11,7 @@ const ConfirmationContent = () => {
       <div className="relative p-7 flex-auto">
         <div className="p-1 text-center">
           <svg
-            aria-hidden="true"
+            
             className="mx-auto mb-2 w-10 h-10 text-indigo-500 dark:text-gray-200"
             fill="none"
             stroke="currentColor"

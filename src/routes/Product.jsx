@@ -157,35 +157,35 @@ const Product = () => {
         </div>
       </div>
 
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap -m-4 text-center">
-            <div class="p-4 sm:w-1/4 w-1/2">
-              <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4 text-center">
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
                 30.7K
               </h2>
 
-              <p class="leading-relaxed">Users</p>
+              <p className="leading-relaxed">Users</p>
             </div>
-            <div class="p-4 sm:w-1/4 w-1/2">
-              <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
                 30.8K
               </h2>
 
-              <p class="leading-relaxed">Sellers</p>
+              <p className="leading-relaxed">Sellers</p>
             </div>
-            <div class="p-4 sm:w-1/4 w-1/2">
-              <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
                 20k
               </h2>
 
-              <p class="leading-relaxed">Paintings sold so far</p>
+              <p className="leading-relaxed">Paintings sold so far</p>
             </div>
-            <div class="p-4 sm:w-1/4 w-1/2">
-              <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">
+            <div className="p-4 sm:w-1/4 w-1/2">
+              <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
                 4
               </h2>
-              <p class="leading-relaxed">Products</p>
+              <p className="leading-relaxed">Products</p>
             </div>
           </div>
         </div>

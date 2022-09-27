@@ -52,7 +52,7 @@ const Catalogue = () => {
               It is a painting that represents the face of sound traveling in
               the air.
             </p>
-            <span class="inline-block italic py-2  space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
+            <span className="inline-block italic py-2  space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
               #Folio 02985
             </span>
           </div>
@@ -134,7 +134,7 @@ const Catalogue = () => {
               day.
             </p>
 
-            <span class="inline-block  py-2 italic space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
+            <span className="inline-block  py-2 italic space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
               #Folio 02905
             </span>
           </div>
@@ -210,7 +210,7 @@ const Catalogue = () => {
               tubular concept.{" "}
             </p>
 
-            <span class="inline-block  py-2 italic  space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
+            <span className="inline-block  py-2 italic  space-x-10  text-sm font-semibold text-gray-700 mr-2 mb-3 ">
               #Folio 02765
             </span>
           </div>
