@@ -20,9 +20,7 @@ const Catalogue = () => {
           </p>
         </div>
       </section>
-
-      <Modal/>
-
+      
       <div className="bg-gray-100 w-100 min-h-screen gap-6  flex-wrap flex justify-center items-center">
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
@@ -65,22 +63,24 @@ const Catalogue = () => {
             >
               <Link to="/View1">Buy Now</Link>{" "}
             </button>
-
+            
             <div className="relative flex items-end justify-end space-x-3">
               <a href="#_" className="text-indigo-500 hover:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 fill-current"
-                  viewBox="0 0 15 16"
+                  className="w-7 h-4 fill-current"
+                  viewBox="0 0 15 15"
+                  
                 >
-                  <MdShare />
+                  
                 </svg>
+                <Modal/>
               </a>
 
               <a href="#_" className="text-indigo-500 hover:text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 fill-current"
+                  className="w-7 h-9   fill-current"
                   viewBox="0 0 15 15"
                 >
                   <AiOutlineEdit />
@@ -89,7 +89,7 @@ const Catalogue = () => {
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 fill-current  text-gray-900 hover:text-indigo-600 cursor-pointer"
+                className="w-6  h-9 fill-current  text-gray-900 hover:text-indigo-600 cursor-pointer"
                 viewBox="0 0 15 15"
                 onClick={toggleQR}
               >
