@@ -15,7 +15,7 @@ const ModalhtmlForm = () => {
           <AiOutlineUserAdd />
         </svg>
       </div>
-      <htmlForm>
+      
         <div className="mb-6 ">
           <label
             htmlFor="email"
@@ -61,7 +61,7 @@ const ModalhtmlForm = () => {
             Confirmar
           </label>
         </div>
-      </htmlForm>
+      
     </>
   );
 };

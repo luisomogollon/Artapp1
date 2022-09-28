@@ -26,7 +26,7 @@ const Catalogue = () => {
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
             className="w-full h-auto object-cover  rounded-xl"
-            
+           
             object-cover="true"
             rounded-xl
             src={qrImage ? imagenes.img0 : imagenes.img7}
