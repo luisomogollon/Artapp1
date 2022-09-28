@@ -26,9 +26,6 @@ const Catalogue = () => {
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
             className="w-full h-auto object-cover  rounded-xl"
-           
-            object-cover="true"
-            rounded-xl
             src={qrImage ? imagenes.img0 : imagenes.img7}
             alt=""
           />
@@ -67,10 +64,10 @@ const Catalogue = () => {
 
             <div className="relative flex items-end justify-end space-x-3">
               {showModal && <Modal onClose={onCloseModal} />}
-              <button 
-                className="text-indigo-500 hover:text-gray-400" 
-                onClick={()=>toggleModal(true)}
-                >
+              <button
+                className="text-indigo-500 hover:text-gray-400"
+                onClick={() => toggleModal(true)}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-9 fill-current"
@@ -105,9 +102,6 @@ const Catalogue = () => {
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
             className="w-full h-auto object-cover  rounded-xl"
-           
-            object-cover
-            rounded-xl
             src={imagenes.img6}
             alt=""
           />
@@ -182,9 +176,6 @@ const Catalogue = () => {
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
             className="w-full h-auto object-cover  rounded-xl"
-           
-            object-cover
-            rounded-xl
             src={imagenes.img2}
             alt=""
           />
