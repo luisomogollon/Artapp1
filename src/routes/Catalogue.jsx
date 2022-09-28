@@ -25,7 +25,7 @@ const Catalogue = () => {
       <div className="bg-gray-100 w-100 min-h-screen gap-6  flex-wrap flex justify-center items-center">
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
-            className="w-full h-auto object-cover  rounded-xl"
+            className="w-full p-3 h-auto object-cover  rounded-xl"
             src={qrImage ? imagenes.img0 : imagenes.img7}
             alt=""
           />
@@ -101,14 +101,14 @@ const Catalogue = () => {
 
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
-            className="w-full h-auto object-cover  rounded-xl"
+            className="w-full h-auto object-cover  p-3 rounded-xl"
             src={imagenes.img6}
             alt=""
           />
 
           <div className="flex items-center justify-center">
             <img
-              className="w-7 h-7 mt-2 rounded-full mr-4"
+              className="w-7 h-7 mt-2  rounded-full mr-4"
               src={imagenes.img9}
               alt="Avatar of Writer"
             />
@@ -175,14 +175,14 @@ const Catalogue = () => {
 
         <div className="w-72 p-2  bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
           <img
-            className="w-full h-auto object-cover  rounded-xl"
+            className="w-full h-auto object-cover  p-3 rounded-xl"
             src={imagenes.img2}
             alt=""
           />
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center  justify-center">
             <img
-              className="w-7 h-7 mt-2 rounded-full mr-4"
+              className="w-7 h-7 mt-2  rounded-full mr-4"
               src={imagenes.img5}
               alt="Avatar of Writer"
             />
